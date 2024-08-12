@@ -46,7 +46,7 @@ class _AddTodoWidgetState extends State<AddTodoWidget> {
               label: Text(
                 'Orqaga',
                 style: TextStyle(
-                  fontFamily: 'SfProText',
+                  fontFamily: 'SFProText',
                   color: AppColors.blue,
                   fontSize: 17.sp,
                 ),
@@ -99,7 +99,7 @@ class _AddTodoWidgetState extends State<AddTodoWidget> {
                             decoration: InputDecoration(
                               hintText: 'Reja nomini kiriting',
                               hintStyle: TextStyle(
-                                fontFamily: 'SfProText',
+                                fontFamily: 'SFProText',
                                 fontSize: 12.89.sp,
                                 color: const Color(0xff3C3C43).withOpacity(0.3),
                               ),
@@ -197,7 +197,7 @@ class _AddTodoWidgetState extends State<AddTodoWidget> {
                       "Qo'shish",
                       style: TextStyle(
                         color: Colors.white,
-                        fontFamily: 'SfProText',
+                        fontFamily: 'SFProText',
                         fontSize: 14.06.sp,
                         fontWeight: FontWeight.w500,
                       ),
@@ -210,7 +210,7 @@ class _AddTodoWidgetState extends State<AddTodoWidget> {
                     'Agar siz bugunni o‘chirib qo‘ysangiz, vazifa ertaga deb hisoblanadi',
                     style: TextStyle(
                       fontSize: 13.sp,
-                      fontFamily: 'SfProText',
+                      fontFamily: 'SFProText',
                       color: const Color(0xff3C3C43).withOpacity(0.6),
                     ),
                   ),
@@ -370,7 +370,7 @@ class _CustomTimePickerState extends State<CustomTimePicker> {
             child: Text(
               _isAM ? ' AM ' : ' PM ',
               style: TextStyle(
-                fontFamily: 'SfProText',
+                fontFamily: 'SFProText',
                 fontSize: 15.sp,
                 fontWeight: FontWeight.w600,
               ),

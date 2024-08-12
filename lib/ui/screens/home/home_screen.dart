@@ -1,5 +1,4 @@
 import 'package:collection/collection.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -84,7 +83,7 @@ class HomeScreen extends StatelessWidget {
                     "Rejalar mavjud emas.\n\nQuyidagi + tugmasi bilan reja qo'shing.",
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontFamily: 'SfProText',
+                      fontFamily: 'SFProText',
                       fontWeight: FontWeight.w500,
                       fontSize: 15.sp,
                     ),
@@ -105,7 +104,7 @@ class HomeScreen extends StatelessWidget {
                           dateKey,
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontFamily: 'SfProText',
+                            fontFamily: 'SFProText',
                             fontSize: 26.9.sp,
                           ),
                         ),
@@ -146,6 +145,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
-
-
